@@ -1,0 +1,26 @@
+.Item{
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Item.red{
+    background-color: #ea5454;
+    font-size: 15px;
+}
+
+.Item.blue{
+    background-color: #61dafb;
+}
+
+.selected{
+    font-size: 15px;
+}
+
+.notSelected{
+    font-size: 0;
+}

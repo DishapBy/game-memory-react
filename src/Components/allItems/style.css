@@ -1,0 +1,10 @@
+.AllItems{
+    width: 800px;
+    height: 800px;
+
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

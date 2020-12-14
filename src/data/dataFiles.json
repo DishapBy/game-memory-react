@@ -1,0 +1,98 @@
+[
+  {
+    "id": "",
+    "letter": "A",
+    "found": false,
+    "active":"notSelected"
+  },
+  {
+    "id": "",
+    "letter": "A",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "B",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "B",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "C",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "C",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "D",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "D",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "F",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "F",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "G",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "G",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "H",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "H",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "J",
+    "found": false,
+    "active": "notSelected"
+  },
+  {
+    "id": "",
+    "letter": "J",
+    "found": false,
+    "active": "notSelected"
+  }
+]
