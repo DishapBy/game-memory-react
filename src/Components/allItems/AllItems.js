@@ -13,7 +13,7 @@ function AllItems() {
     useEffect(() => {
 
         let tmpArrResult = dataItems.map(item => {
-            item.id = Math.floor(1 + Math.random() * (1000 + 1 - 1));
+            item.id = Math.floor(1 + Math.random() * (1000000 + 1 - 1));
             return item
         })
 
@@ -27,20 +27,19 @@ function AllItems() {
 
     const changeActiveClass = (id) => {
         let tmpArr = [...arr].map(item => {
-                if (item.id === id) {
-                    return {...item, active: "selected"}
-                }
-                return item;
-            })
-            setArr(tmpArr);
+            if (item.id === id) {
+                return {...item, active: "selected"}
+            }
+            return item;
+        })
+        setArr(tmpArr);
     }
 
     const myFunc = (event) => {
         setClickCount(clickCount + 1);
-        console.log(event.target)
+        console.log(event.target.id)
         setClickLetter(() =>{
-            console.log(new Date())
-            return [...clickLetter, event.target.innerText];
+                return [...clickLetter, event.target.innerText];
             }
         )
     }
@@ -54,12 +53,12 @@ function AllItems() {
 
     if(clickCount === 2 && clickLetter[0] === clickLetter[1]){
         let tmpArr = [...arr];
-            tmpArr = arr.map(item => {
-                if(item.letter === clickLetter[0]){
-                   return {...item, found: true}
-                }
-                return item;
-            })
+        tmpArr = arr.map(item => {
+            if(item.letter === clickLetter[0]){
+                return {...item, found: true}
+            }
+            return item;
+        })
 
         setArr(tmpArr)
         defaultValue();

@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 function Item(props) {
-
+    console.log(props.id)
     let propsColor = 'Item blue';
     if(props.found === true){
         propsColor = 'Item red';
